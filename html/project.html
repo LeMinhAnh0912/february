@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/project.css" />
+    <script
+      src="https://kit.fontawesome.com/9cfebfd12e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PROJECT</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <p>Logo</p>
+      </div>
+      <div class="logo-menu">
+        <div class="header-lists">
+          <ul class="header-list">
+            <li class="header-element">Store</li>
+            <li class="header-element">Mac</li>
+            <li class="header-element">Iphone</li>
+            <li class="header-element">Ipad</li>
+            <li class="header-element">Airpods</li>
+            <li class="header-element">Accessories</li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-div">
+        <ul class="information">
+          <li>Support</li>
+          <li>
+            <i class="fa-solid fa-bag-shopping"></i>
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-user"
+              onclick="handleSignIn()"
+              id="icon-sign-in"
+            ></i>
+          </li>
+        </ul>
+      </div>
+      <span id="current-email"></span>
+      <button
+        id="btn-sign-out"
+        onclick="handleSignOut()"
+        style="color: white; display: none"
+      >
+        Sign Out
+      </button>
+    </header>
+
+    <main>
+      <div class="main-macbook">
+        <div>
+          <h1 class="macbookAir">MacBooK Air</h1>
+          <p class="design">
+            The new 15‑inch MacBook Air makes room for more of <br />
+            what you love with a spacious Liquid Retina display. And <br />
+            with the 13‑inch model, you have more reasons than ever <br />
+            to choose Air. Supercharged by the M2 chip and with up <br />
+            fast performance in an ultraportable design.
+          </p>
+          <div class="main-btn">
+            <button class="btn">15-Inch</button>
+            <button class="btn">13 Inch M2</button>
+            <button class="btn">13 Inch M1</button>
+          </div>
+        </div>
+        <div class="Rectangle">
+          <img src="../image/Rectangle 4.png" alt="" />
+        </div>
+      </div>
+
+      <div class="main-class"></div>
+
+      <div class="main-body">
+        <div class="ipad-applewatch">
+          <div class="main-ipad">
+            <div class="font-ipad">
+              <!-- <div class="h2-p"> -->
+              <h2 class="ipadPro">Ipad Pro</h2>
+              <p class="M2">
+                M2 chip. The M2 chip is the next generation of Apple silicon,
+                with an 8‑core CPU <br />
+                that delivers up to 15 percent faster performance and a 10‑core
+                GPU that <br />
+                provides up to 35 percent faster graphics performance.
+              </p>
+              <!-- </div> -->
+            </div>
+            <div class="link-ipad">
+              <img src="../image/Rectangle 14.png" alt="" />
+            </div>
+          </div>
+
+          <div class="main-applewatch">
+            <div class="font-applewatch">
+              <h2 class="apple-ultra">Apple Watch Ultra</h2>
+              <p class="battery">
+                Meet the most rugged and capable Apple Watch ever. With a robust
+                titanium case, <br />
+                precision dual-frequency GPS, up to 36 hours of battery life
+              </p>
+            </div>
+            <div class="link-applewatch">
+              <img class="img15" src="../image/Rectangle 15.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="airpods-appleTV">
+          <div class="main-airpods">
+            <div class="font-airpods">
+              <h2 class="airPods-Max">AirPods Max</h2>
+              <p class="Max">
+                Introducing AirPods Max — a perfect balance of exhilarating
+                high- <br />
+                fidelity audio and the effortless magic of AirPods. The ultimate
+                <br />
+                personal listening experience is her
+              </p>
+            </div>
+            <div class="link-airpods">
+              <img src="../image/Rectangle 16.png" alt="" />
+            </div>
+          </div>
+
+          <div class="main-appleTV">
+            <div class="font-appleTV">
+              <h2 class="appleTV">AppleTV & Home</h2>
+              <p class="Siri">
+                Simply connect your favorite devices and transform your house
+                into a remarkably <br />
+                smart, convenient, and entertaining home. Elevate movie night
+                with theater-like <br />
+                picture and sound. Play any song, in any room, from anywhere.
+                And control lights, <br />
+                locks, and thermostats using Siri. All with the security and
+                privacy of Apple.
+              </p>
+            </div>
+            <div class="link-appleTV">
+              <img src="../image/Rectangle 17.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-IT">
+        <div class="main-iphone14">
+          <div class="font-case">
+            <p class="magSafe">
+              iPhone 14 Silicon <br />
+              Case with MagSafe
+            </p>
+          </div>
+          <div class="img18">
+            <img src="../image/Rectangle 18.png" alt="" />
+          </div>
+        </div>
+        <div class="main-headPhones">
+          <div class="font-studio">
+            <p class="studio">
+              Beats Studio Pro <br />
+              Wireless <br />
+              HeadPhones
+            </p>
+          </div>
+          <div class="img19">
+            <img src="../image/Rectangle 19.png" alt="" />
+          </div>
+        </div>
+
+        <div class="main-smartIpads">
+          <div class="font-folio">
+            <p class="folio">
+              Smart Folio for iPad <br />
+              (10th generation)
+            </p>
+          </div>
+          <div class="img20">
+            <img src="../image/Rectangle 20.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="main-brands">
+        <div class="font-brands">
+          <p class="p-brands">Others Brands</p>
+        </div>
+        <div class="main-choose">
+          <div class="Ellipse17">
+            <img src="../image/Ellipse 17.png" alt="" />
+          </div>
+          <div class="Ellipse18">
+            <img src="../image/Ellipse 18.png" alt="" />
+          </div>
+          <div class="Ellipse19">
+            <img src="../image/Ellipse 19.png" alt="" />
+          </div>
+          <div class="Ellipse20">
+            <img src="../image/Ellipse 20.png" alt="" />
+          </div>
+          <div class="Ellipse21">
+            <img src="../image/Ellipse 21.png" alt="" />
+          </div>
+          <div class="Ellipse22">
+            <img src="../image/Ellipse 22.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="main-celina">
+        <div class="logo1-MSP">
+          <div class="logo1">
+            <p class="p-logo1">Logo</p>
+          </div>
+          <div class="MSP">
+            <p class="p-MSP">MSP</p>
+          </div>
+        </div>
+        <!-- <div class="add-footer"> -->
+        <div class="body-footer">
+          <p class="p-celina">6391 Elgin St.Celina, Delaware 10299</p>
+        </div>
+        <!-- </div> -->
+      </div>
+      <div class="add-aboutUS">
+        <div class="main-contact">
+          <div class="about">
+            <p class="p-about">About</p>
+          </div>
+          <div class="US">
+            <p class="p-US">Contact US</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-iphones">
+        <div>
+          <p class="iPhone14-series">iPhone 14 Series</p>
+        </div>
+        <div>
+          <p class="iPhone13-series">iPhone 13 Series</p>
+        </div>
+        <div>
+          <p class="iPhone12-series">iPhone 12 Series</p>
+        </div>
+        <div>
+          <p class="iPhones-SE">iPhone SE</p>
+        </div>
+      </div>
+
+      <div class="main-iPads">
+        <div>
+          <p class="iPad-Pro">iPad Pro</p>
+        </div>
+        <div>
+          <p class="p-iPad">iPad</p>
+        </div>
+        <div>
+          <p class="iPad-Air">iPad Air</p>
+        </div>
+        <div>
+          <p class="iPad-Mini">iPad Mini</p>
+        </div>
+      </div>
+
+      <div class="main-macbooks">
+        <div class="main-div">
+          <p class="macbook-Air">MacBook Air</p>
+        </div>
+        <div>
+          <p class="macbook-pro">MacBook Pro</p>
+        </div>
+        <div>
+          <p class="iMac">iMac</p>
+        </div>
+        <div>
+          <p class="mac-mini">Mac mini</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="../js/signin.js"></script> -->
+    <script src="../js/project.js"></script>
+  </body>
+</html>

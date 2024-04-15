@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/create.css" />
+    <title>Create</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="h1">Register</h1>
+    </div>
+    <div class="main-create">
+      <form class="main-form" onsubmit=" handleSubmit(event)">
+        <!-- <label>User name</label> -->
+        <input
+          type="text"
+          name="username"
+          id="username"
+          oninput="handleInput()"
+          placeholder="Username"
+        />
+        <p id="errorName"></p>
+        <!-- <label for="">Email address</label> -->
+        <input
+          type="email"
+          name="email"
+          id="email"
+          oninput="handleInputEmail()"
+          placeholder="Email"
+        />
+        <p id="errorEmail"></p>
+        <!-- <label for="">Password</label> -->
+        <input
+          type="password"
+          name="password"
+          id="password"
+          oninput="handleInputPassword()"
+          placeholder="Password"
+        />
+        <p id="errorPassword"></p>
+        <button class="create">Register</button>
+        <button class="signin">Have account? Sign in</button>
+        <!-- <div class="create" onclick="createClick()">Create account</div> -->
+      </form>
+    </div>
+
+    <script src="../js/create.js"></script>
+  </body>
+</html>

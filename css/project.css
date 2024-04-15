@@ -1,0 +1,1239 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: auto;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  overflow-x: hidden;
+}
+.information {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  margin-top: -10px;
+}
+.main-project {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.header-list {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  margin-right: 400px;
+}
+#header {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.logo {
+  display: flex;
+  width: 61px;
+  height: 56.4px;
+  border: 10px solid white;
+  border-radius: 100%;
+}
+.logo-menu {
+  gap: 35px;
+  display: flex;
+  justify-content: flex-end;
+}
+/* .macbookAir {
+  display: flex;
+  color: rgb(39, 66, 95);
+  font-size: 40px;
+} */
+.btn {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 45px;
+  font-weight: 700px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.macbookAir {
+  font-family: Nunito;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.56px;
+  text-align: left;
+  color: rgb(39, 66, 95);
+}
+.design {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+}
+.Rectangle {
+  width: 635px;
+  height: 506px;
+  top: 72px;
+  left: 730px;
+  gap: 0px;
+  opacity: 0px;
+}
+.main-macbook {
+  display: flex;
+}
+.main-btn {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.main-macbooks {
+  display: flex;
+  flex-direction: column;
+  margin-left: 800px;
+  margin-top: -127px;
+}
+/* .image {
+  width: 417px;
+  height: 196px;
+  border-radius: 30px 0px 0px 0px;
+  display: flex;
+} */
+/* .img-font {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.28px;
+  text-align: left;
+} */
+.concept {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.28px;
+  text-align: left;
+}
+.save {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.92px;
+  text-align: left;
+}
+.buyNow {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  background-color: white;
+}
+.main1 {
+  display: flex;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: stretch;
+}
+
+.btn-buy {
+  width: 250px;
+  margin-left: 60px;
+  margin-top: 230px;
+}
+.image {
+  /* margin-right: 40px; */
+  margin-left: 40px;
+  position: absolute;
+  z-index: -1;
+}
+.main-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  margin-bottom: 200px;
+
+  flex-wrap: wrap;
+}
+.main1:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.font-ipad {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.ipadPro {
+  font-family: Nunito;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40.92px;
+  text-align: left;
+}
+.M2 {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+  margin-top: 10px;
+}
+/* .main-ipad {
+  display: flex;
+  margin-right: 750px;
+} */
+
+/* .link-ipad {
+  z-index: -1;
+  position: absolute;
+} */
+/* .font-ipad {
+  z-index: -1;
+  position: absolute;
+} */
+
+/* .main-applewacth {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 157px;
+} */
+.ipad-applewatch {
+  display: flex;
+}
+.airpods-appleTV {
+  display: flex;
+}
+.main-ipad {
+  position: relative;
+}
+.font-ipad {
+  position: absolute;
+}
+.battery {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.img15 {
+  margin-bottom: 40px;
+}
+
+.apple-ultra {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.92px;
+  text-align: left;
+}
+.font-applewatch {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main-applewatch {
+  position: relative;
+}
+.font-applewatch {
+  position: absolute;
+}
+/* AIRPODS */
+.main-airpods {
+  position: relative;
+}
+.font-airpods {
+  position: absolute;
+}
+.airPods-Max {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.92px;
+  text-align: left;
+}
+.font-airpods {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Max {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+  margin-top: 10px;
+}
+/* APPLE-TV */
+.main-appleTV {
+  position: relative;
+}
+.font-appleTV {
+  position: absolute;
+}
+.appleTV {
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.92px;
+  text-align: left;
+}
+.Siri {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+}
+.font-appleTV {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* MAIN-SP */
+.main-IT {
+  display: flex;
+  margin-top: 200px;
+}
+.main-iphone14 {
+  position: relative;
+  border: 1px solid rgb(144, 128, 128);
+  border-radius: 15px;
+}
+.font-case {
+  position: absolute;
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40.92px;
+  text-align: left;
+}
+.magSafe {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+/* STUDIO HEADPHONES */
+.main-headPhones {
+  position: relative;
+  border: 1px solid rgb(144, 128, 128);
+  border-radius: 15px;
+}
+.font-studio {
+  position: absolute;
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40.92px;
+  text-align: left;
+}
+.studio {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+/* SMART-IPADS */
+.main-smartIpads {
+  position: relative;
+  border: 1px solid rgb(144, 128, 128);
+  border-radius: 15px;
+}
+.font-folio {
+  position: absolute;
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40.92px;
+  text-align: left;
+}
+.folio {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+/* OTHERS-BRANDS */
+.main-brands {
+  margin-top: 100px;
+}
+.main-choose {
+  display: flex;
+  margin-right: 400px;
+  margin-left: 40px;
+}
+.p-brands {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.31px;
+  text-align: left;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+/* FOOTER */
+.footer {
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgba(203, 203, 203, 1);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+/* .main-celina {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1000px;
+} */
+.add-footer {
+  display: flex;
+}
+.logo1-MSP {
+  display: flex;
+  margin-left: 35px;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.logo1 {
+  border: 7px solid black;
+  border-radius: 300px;
+  width: 50px;
+  height: 50px;
+}
+.p-logo1 {
+  display: flex;
+  margin-top: 10px;
+}
+.main-celina {
+  display: flex;
+  flex-direction: column;
+}
+.p-celina {
+  display: flex;
+  margin-left: -610px;
+}
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  display: flex;
+  margin-bottom: 20px;
+}
+.p-about {
+  display: flex;
+  margin-top: -60px;
+  margin-right: 300px;
+}
+.p-US {
+  margin-top: -50px;
+  margin-right: 300px;
+}
+.US {
+  display: flex;
+}
+.add-aboutUS {
+  display: flex;
+  margin-bottom: -80px;
+}
+
+.main-iphones {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+.iPhone14-series {
+  display: flex;
+  margin-top: -30px;
+}
+.iPhone13-series {
+  display: flex;
+  margin-bottom: 10px;
+}
+.iPhone12-series {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.main-iPads {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  margin-top: -104px;
+}
+.iPad-Pro {
+  display: flex;
+  margin-top: 6px;
+}
+.p-iPad {
+  display: flex;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+.iPad-Air {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.main-macbook {
+  display: flex;
+}
+.macbook-Air {
+  /* display: flex;
+  margin-top: 6px; */
+  margin-top: 0px;
+  margin-left: 146px;
+}
+.macbook-pro {
+  display: flex;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+.iMac {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* STORE PAGE */
+.img-big {
+  display: flex;
+  margin-top: 35px;
+}
+.h2 {
+  font-family: Nunito;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.1px;
+  text-align: left;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  text-decoration: underline;
+}
+
+.main-all {
+  display: flex;
+  margin-top: 60px;
+}
+.h2-mac {
+  font-family: Nunito;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.1px;
+  text-align: left;
+  display: flex;
+  margin-top: 85px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+.main-min {
+  position: relative;
+}
+.font-min {
+  position: absolute;
+}
+.p-1 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.main-min2 {
+  position: relative;
+}
+.font-min2 {
+  position: absolute;
+}
+.p-2 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.main-min3 {
+  position: relative;
+}
+.font-min3 {
+  position: absolute;
+}
+.p-3 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-min {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+/* .main-money {
+  position: relative;
+} */
+.btn-min1 {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+.btn-min2 {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+
+.h2-iphone {
+  /* display: flex;
+  margin-top: 110px;
+  margin-bottom: 70px; */
+  font-family: Nunito;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.1px;
+  text-align: left;
+  display: flex;
+  margin-top: 85px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+.main-allIphone {
+  display: flex;
+}
+
+.p-01 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-max {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+.main-max {
+  position: relative;
+}
+.font-max {
+  position: absolute;
+}
+.p-02 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-max02 {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+.p-03 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-max03 {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+
+.font-allIpads {
+  display: flex;
+}
+
+.main-allIpads {
+  display: flex;
+}
+.main-close {
+  position: relative;
+}
+.font-close {
+  position: absolute;
+}
+
+.h2-ipads {
+  /* display: flex;
+  margin-top: 110px;
+  margin-bottom: 70px; */
+  font-family: Nunito;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.1px;
+  text-align: left;
+  display: flex;
+  margin-top: 85px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+.p-a {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-close {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+.main-close2 {
+  position: relative;
+}
+.font-close2 {
+  position: absolute;
+}
+.p-b {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-close2 {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+.main-close3 {
+  position: relative;
+}
+.font-close3 {
+  position: absolute;
+}
+.p-c {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-close3 {
+  border: none;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 265px;
+  margin-left: 150px;
+  color: white;
+}
+
+.h1 {
+  font-family: Nunito;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 47.74px;
+  text-align: left;
+  display: flex;
+  margin-top: 50px;
+  /* margin-bottom: 300px; */
+}
+.main-fix {
+  display: flex;
+}
+.img45 {
+  margin-top: -220px;
+}
+.main-pity {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 290px;
+}
+.star {
+  display: flex;
+  gap: 10px;
+}
+.force {
+  display: flex;
+  margin-right: 190px;
+  margin-top: 20px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.28px;
+  text-align: left;
+}
+.btn-buynow {
+  border: none;
+  background-color: blue;
+  width: 170px;
+  height: 40px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-around;
+  margin-right: 350px;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  color: white;
+}
+/* CSS MAIN-BOX */
+.box1 {
+  /* width: 50px;
+  height: 50px;
+  background-color: rgba(217, 217, 217, 1);
+  border: 1px solid black;
+  margin: 0; */
+  width: 59px;
+  height: 59px;
+  border: 2px solid black;
+  background-color: rgba(217, 217, 217, 1);
+  margin: 0;
+  cursor: pointer;
+}
+.box2 {
+  /* width: 50px;
+  height: 50px;
+  background-color: rgb(43, 32, 32);
+  border: 1px solid black;
+  margin: 0; */
+  width: 59px;
+  height: 59px;
+  border: 2px solid black;
+  background-color: rgba(103, 103, 103, 1);
+  margin: 0;
+  cursor: pointer;
+}
+.main-box {
+  display: flex;
+  gap: 34px;
+  margin-top: 50px;
+}
+.plus {
+  border: none;
+  background-color: rgb(231, 104, 178);
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+.subtract {
+  border: none;
+  background-color: rgb(231, 104, 178);
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+.span {
+  display: flex;
+  gap: 34px;
+  margin-top: 18px;
+}
+.p12 {
+  margin-left: 60px;
+}
+/* CART */
+.img51 {
+  margin-top: 70px;
+  margin-right: 500px;
+  display: flex;
+}
+#img51 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.your-bag {
+  font-family: Nunito;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.56px;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.main-bgc {
+  display: flex;
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+}
+.magic {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  margin-left: -1255px;
+  margin-bottom: 45px;
+}
+
+.main-bag {
+  display: flex;
+  margin-left: 70px;
+}
+.div-main {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.img52 {
+  margin-top: 70px;
+  margin-right: 500px;
+  display: flex;
+}
+#img52 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.main-bgc2 {
+  display: flex;
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+}
+.magic2 {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  margin-left: -1255px;
+  margin-bottom: 45px;
+}
+
+.main-bag2 {
+  display: flex;
+  margin-left: 70px;
+}
+.div-mainPro {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.img53 {
+  margin-top: 70px;
+  margin-right: 500px;
+  display: flex;
+}
+#img53 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.main-bgc3 {
+  display: flex;
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+}
+.magic3 {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  margin-left: -1255px;
+  margin-bottom: 45px;
+}
+
+.main-bag3 {
+  display: flex;
+  margin-left: 70px;
+}
+.div-mainPro2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.main--information--h3 {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 106px;
+}
+.main--information--p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.main--information {
+  margin-top: 121px;
+  margin-left: 75px;
+}
+
+/* CSS CART */
+.main-flex {
+  display: flex;
+}
+.main-bag {
+  display: flex;
+}
+.main-bgc {
+  background-color: rgba(217, 217, 217, 0.18);
+  width: 787.6px;
+  height: 195.9px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 28px;
+}
+.main-background {
+  background-color: rgba(217, 217, 217, 1);
+  width: 153.26px;
+  height: 39.98px;
+  border-radius: 30px;
+  display: flex;
+  margin-left: 69.8px;
+}
+.main__btn {
+  font-size: 30px;
+  border: none;
+  background-color: rgba(217, 217, 217, 1);
+  cursor: pointer;
+}
+.main-background1 {
+  background-color: rgba(217, 217, 217, 1);
+  width: 153.26px;
+  height: 39.98px;
+  border-radius: 30px;
+  display: flex;
+  margin-left: 165.8px;
+}
+.main__btn1 {
+  font-size: 30px;
+  border: none;
+  background-color: rgba(217, 217, 217, 1);
+  cursor: pointer;
+}
+
+.main-background2 {
+  background-color: rgba(217, 217, 217, 1);
+  width: 153.26px;
+  height: 39.98px;
+  border-radius: 30px;
+  display: flex;
+  margin-left: 113.8px;
+}
+
+.main__btn2 {
+  font-size: 30px;
+  border: none;
+  background-color: rgba(217, 217, 217, 1);
+  cursor: pointer;
+}
+.main__img {
+  margin-right: 18.66px;
+}
+.main-p {
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.main__order {
+  width: 470px;
+  height: 670px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 50px;
+}
+.main-oder {
+  display: flex;
+}
+.main-addpromo {
+  width: 404px;
+  height: 42px;
+  border: 1px solid black;
+  background-color: rgba(217, 217, 217, 0.25);
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 27px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.main-apply {
+  width: 82px;
+  height: 29px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  position: absolute;
+  right: 100px;
+  top: 52px;
+  margin-right: -39px;
+  margin-top: 95px;
+}
+.main-address {
+  width: 404px;
+  height: 72px;
+  border: 1px solid black;
+  padding: 33px;
+  background-color: rgba(217, 217, 217, 0.18);
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.main-select {
+  width: 134px;
+  height: 28px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-paynow {
+  width: 198px;
+  height: 49px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgba(136, 183, 237, 1);
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.main__cart {
+  display: flex;
+}
+.icon-user {
+  cursor: pointer;
+}
+.main-h2 {
+  margin-left: 145px;
+  font-size: 30px;
+  margin-top: 55px;
+}
+#main-p {
+  margin-top: 20px;
+  margin-left: 63px;
+}
+#main-p1 {
+  margin-top: 20px;
+  margin-left: 63px;
+  margin-bottom: 0px;
+}
+
+#main-p2 {
+  margin-bottom: 20px;
+}
+.main-div {
+  margin-left: 63px;
+  margin-top: 30px;
+}
+
+.p {
+  margin-top: 10px;
+}

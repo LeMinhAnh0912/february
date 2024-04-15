@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/signin.css" />
+    <title>SIGN IN</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="h1">Sign In</h1>
+    </div>
+    <div class="main-create">
+      <form class="main-form" onsubmit="handleLoginSubmit(event)">
+        <!-- <label>User name</label>
+        <input type="text" name="username" id="username" /> -->
+        <!-- <label for="">Email address</label> -->
+        <input
+          type="email"
+          name="email"
+          id="email"
+          oninput="handleInputLoginEmail()"
+          placeholder="Email"
+        />
+        <p id="errorLoginEmail"></p>
+        <!-- <label for="">Password</label> -->
+        <input
+          type="password"
+          name="password"
+          id="password"
+          oninput="handleInputLoginPassword()"
+          placeholder="Password"
+        />
+        <p id="errorLoginPassword"></p>
+        <button class="create">LOGIN</button>
+        <a class="link" href="password.html" onclick="handleLink()"
+          >Change password</a
+        >
+        <p class="link-p">
+          You don't have an account?
+          <a class="link-create" href="create.html">Register Now</a>
+        </p>
+        <!-- <div class="create" onclick="createClick()">Create account</div> -->
+        <script src="../js/signin.js"></script>
+      </form>
+    </div>
+  </body>
+</html>
